@@ -9,11 +9,13 @@ a {
     color: #444;
     text-decoration: none;}
 
-.button-group .foodbutton {
+a:hover{color: white;}
+
+.button-group .button {
     background-color: yellow; /* Green background */
     border: 1px solid green; /* Green border */
     margin: 10px;
-    color: white; /* White text */
+    
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     width: 50%; /* Set a width if needed */
@@ -22,18 +24,13 @@ a {
         display: block; /* Make the buttons appear below each other */
   }
   
+.button:hover {
+    background-color: yellowgreen;
+    color: #ccc!important;
+    transition: .4s;
+}
 
-
-  .button-group .fish {
-      background-color: pink;
-      text-decoration: none;
-  }
-  
-  .fish a {
-      font-weight: 900;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  /* Add a background color on hover */
-  .button-group .foodbutton:hover {
-    background-color: red;
-  }
+img {
+    width: 50%;
+    
+}
