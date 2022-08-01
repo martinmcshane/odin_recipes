@@ -1,8 +1,12 @@
 /*FOOD STYLES BY MMc*/
 
+* {
+    border: 2px solid red;
+}
+
 body {
-    color: #ccc;
-    background-color: #444444;
+    color: #ddd;
+    background-color: #444;
 }
 
 a {
@@ -11,7 +15,9 @@ a {
 
 a:hover{color: white;}
 
-.button-group .button {
+.button-group .button,
+.home-button
+{
     background-color: yellow; /* Green background */
     border: 1px solid green; /* Green border */
     margin: 10px;
@@ -24,7 +30,8 @@ a:hover{color: white;}
         display: block; /* Make the buttons appear below each other */
   }
   
-.button:hover {
+.button:hover, 
+.home-button:hover {
     background-color: yellowgreen;
     color: #ccc!important;
     transition: .4s;
@@ -34,3 +41,4 @@ img {
     width: 50%;
     
 }
+
